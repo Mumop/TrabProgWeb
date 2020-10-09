@@ -6,16 +6,8 @@ body, ul, li, p {
     list-style: none;
 }
 
-main{
-	display: flex;
-	justify-content: center;
-	padding-top: 20px;
-	margin: 0 20px;
-	padding-bottom: 50px;
-}
-
-a{
-    color: white;
+.header a{
+    color: grey;
     text-decoration: none;
 }
 
@@ -37,12 +29,7 @@ a{
     padding: 10px;
 }
 
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 100%;
-}
+
 .enviar {
 	width:100%;
 	display: block;
@@ -56,12 +43,16 @@ a{
 	transition: 1s all;
 	cursor: pointer;
 }
+
 .enviar:hover {
 	background: darkgray;
 	transform: scale(1.2);
 }
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+
+main{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin: 0 20px;
+	padding-bottom: 50px;
 }
